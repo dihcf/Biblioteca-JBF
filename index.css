@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+:root {
+  font-size: 60%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Share Tech", sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  background-color: aliceblue;
+}
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  min-height: 100vh;
+  width: 100vw;
+  padding-top: 50px;
+}
+h1{
+    text-transform: uppercase;
+}
+form{
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.7rem;
+  gap: 25px;
+  background: rgba(255, 255, 255, 0.44);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.6px);
+  -webkit-backdrop-filter: blur(6.6px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+}
+
+input,
+select {
+  height: 40px;
+  width: 100%;
+  padding-left: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f1f1f1;
+  outline: none;
+}
+
+form section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.areaInput {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1 1 45%;
+  min-width: 200px;
+}
+
+#buttons {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#buttons button{
+  height: 35px;
+  width: 120px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f1f1f1;
+  transition: background 1s;
+}
+
+#buttons button:hover{
+    background-color: #b5b3b3;
+    cursor: pointer;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid #000;
+    text-align: left;
+    min-width: 600px;
+}
+
+tr,th,td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+  text-align: center;
+}
+/* Responsivo para telas menores */
+@media (max-width: 500px) {
+  :root {
+    font-size: 55%;
+  }
+
+  .areaInput {
+    flex: 1 1 100%;
+  }
+}

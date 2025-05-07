@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <main>
+        <h1>Registro de Retirada e Entrega de Livros</h1>
+        <form method="" action="">
+            <section id="infoaluno">
+            <div class="areaInput">
+            <label for="nome" id="name">Nome do Aluno</label>
+            <input type="text" placeholder="Digite o nome completo do aluno" id="nome">
+            </div>   
+            <div class="areaInput" id="serie">
+                <label>Turma</label>
+                <select name="" id="">
+                    <option value="6a">6º ano A</option>
+                    <option value="6b">6º ano B</option>
+                    <option value="7a">7º ano A</option>
+                    <option value="7b">7º ano B</option>
+                    <option value="7c">7º ano C</option>
+                    <option value="8a">8º ano A</option>
+                    <option value="8b">8º ano B</option>
+                    <option value="8c">8º ano C</option>
+                    <option value="9a">9º ano A</option>
+                    <option value="9b">9º ano B</option>
+                </select>
+            </div>
+            </section>
+
+            <section id="infolivro">
+            <div class="areaInput" id="nameBook">
+                <label for="nome">Nome do Livro</label>
+                <input type="text" placeholder="Digite o nome completo do aluno" id="nome">
+            </div>
+            <div class="areaInput" name="nameBook">
+                <label>Data de Retirada</label>
+                <input type="date" id="data">
+            </div>
+            </section>
+
+            <section id="buttons">
+            <button type="button">Registrar</button>
+            <button type="button">Visualizar</button>
+            </section>
+        </form>
+
+        <section id="Register">
+            <table>
+                <tr>
+                    <th>NOME DO ALUNO(A)</th>
+                    <th>TURMA</th>
+                    <th>NOME DO LIVRO</th>
+                    <th>DATA DE RETIRADA</th>
+                    <th>DATA DE ENTREGA</th>
+                </tr>
+                  <tr>
+                    <td>Luis Guilherme Brito Gomes</td>
+                    <td>1º ano A</td>
+                    <td>One Piece</td>
+                    <td>06/05/2025</td>
+                    <td>10/05/2025</td>
+                  </tr>
+                  <tr>
+                    <td>Davyson Levi Cordeiro dos Santos</td>
+                    <td>1º ano A</td>
+                    <td>Naruto</td>
+                    <td>06/05/2025</td>
+                    <td>10/05/2025</td>
+                  </tr>
+                  <tr>
+                    <td>Guilherme Moreira de Sousa</td>
+                    <td>1º ano A</td>
+                    <td>Pokemon</td>
+                    <td>06/05/2025</td>
+                    <td>10/05/2025</td>
+                  </tr>
+            </table>
+         
+            <!-- <article>
+                <div class="areaInput">
+                <label for="">Nome do Aluno</label>
+                <input type="text" placeholder="digite o nome do aluno aqui">
+                </div>
+                
+                <div class="areaInput">
+                <label for="">Nome do Livro</label>
+                <input type="text" placeholder="digite o nome do livro entregue aqui">
+                </div>
+
+                <div class="areaInput">
+                <label for="">Data de Entrega</label>
+                <input type="date">
+                </div>
+
+                <div class="areaInput" id="buttonRegister">
+                <button type="button">Registrar</button>
+                </div>
+            </article> -->
+        
+        </section>
+    </main>
+
+</body>
+</html>
