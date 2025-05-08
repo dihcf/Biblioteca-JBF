@@ -37,16 +37,16 @@ form{
   flex-direction: column;
   font-size: 1.7rem;
   gap: 25px;
-  background: rgba(255, 255, 255, 0.44);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(6.6px);
-  -webkit-backdrop-filter: blur(6.6px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.44);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 20px;
 }
 
-input,
+input:not(#input_search),
 select {
   height: 40px;
   width: 100%;
@@ -105,6 +105,102 @@ tr,th,td {
   border: 1px solid rgb(160 160 160);
   padding: 8px 10px;
   text-align: center;
+}
+
+#return{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 85%;
+ min-width: 600px;
+ height: 85vh;
+ z-index: 1;
+ background:  rgba(255, 255, 255, 0.066);
+ border-radius: 16px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(6.6px);
+ -webkit-backdrop-filter: blur(6.6px);
+ border: 1px solid rgba(255, 255, 255, 0.3);
+ display: none;
+ justify-content: center;
+ flex-wrap: wrap;
+ align-items: baseline;
+ padding: 10px 0;
+}
+#search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+#input_search{
+ width: 65%;
+ height: 35px;
+ border-radius: 8px;
+ background-color: #fff;
+ box-shadow: 0 25px 40px rgba(0, 0, 0, 0.1);
+ border: none;
+ outline: none;
+ text-align: right;
+ font-weight: bold;
+ color: #000;
+ font-size: 1.7rem;
+ position: absolute;
+ padding-right: 51px;
+ text-transform: uppercase;
+}
+#search img{
+ width: 20px;
+ height: 20px;
+ position: relative;
+ left: 30%;
+ margin-top: 7px;
+ cursor: pointer;
+ background-color: #fff;
+}
+#close-modal{
+width: 20px;
+position: absolute;
+top: 1.5%;
+right: 1%;
+cursor: pointer;
+}
+#data{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.conteinerData{
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1);
+    border: none;
+    outline: none;
+    display: flex;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    align-items: center;
+    cursor: pointer;
+}
+.conteinerData p:nth-child(1){
+    width: 35%;
+    padding-left: 10px;
+}
+
+.conteinerData p:nth-child(2){
+    width:10%;
+}
+
+.conteinerData p:nth-child(3){
+    width: 35%;
+}
+
+.conteinerData p:nth-child(4),.conteinerData p:nth-child(5){
+    width: 10%;
 }
 /* Responsivo para telas menores */
 @media (max-width: 500px) {
