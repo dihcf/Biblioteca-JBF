@@ -8,9 +8,9 @@
 </head>
 <body>
     <div id="return">
-        <img src="images/marca-x.png" id="close-modal">
+        <img src="images/marca-x.png" class="close-modal" id="oneC">
         <header id="search">
-            <input type="text" id="input_search">
+            <input type="text" id="input_search" placeholder="DIGITE O NOME DO ALUNO">
             <img src="images/loupe.png" alt="">
         </header>
         <section id="data">
@@ -19,7 +19,7 @@
             <p>9º Ano B</p>
             <p>O pequeno principe</p>
             <p>06/05/2025</p>
-            <p>15/06/2002</p>  
+            <p>XX/XX/XXXX</p>   
             </div>   
 
             <div class="conteinerData">
@@ -27,7 +27,7 @@
                 <p>9º Ano A</p>
                 <p>Percy Jackson e o Mar de Monstros</p>
                 <p>06/05/2025</p>
-                <p>15/06/2002</p>  
+                <p>XX/XX/XXXX</p>  
             </div> 
 
             <div class="conteinerData">
@@ -35,7 +35,7 @@
                 <p>9º Ano C</p>
                 <p>Amar ou Depender</p>
                 <p>06/05/2025</p>
-                <p>15/06/2002</p>  
+                <p>XX/XX/XXXX</p>  
             </div> 
 
             <div class="conteinerData">
@@ -43,17 +43,29 @@
                 <p>Professor</p>
                 <p>Livro Didatico de Matematica</p>
                 <p>06/05/2025</p>
-                <p>15/06/2002</p>  
+                <p>XX/XX/XXXX</p>  
             </div> 
         </section>
     </div>
+    <section id="modal-edit">
+        <img src="images/marca-x.png" class="close-modal" id="twoC">
+        <center><H3>DEVOLUÇÃO DE LIVRO</H3></center>
+        <div id="info-card">
+            <form method="" action="" id="form-d">
+            <p id="add-nome"></p>
+            <p id="add-livro"></p>
+            <input type="date" name="" id="input-d">
+            <button type="button" id="button-d">Registrar</button>
+            </form>
+        </div>  
+    </section>
     <main>
         <h1>Registro de Retirada e Entrega de Livros</h1>
         <form method="" action="">
             <section id="infoaluno">
             <div class="areaInput">
-            <label for="nome" id="name">Nome do Aluno</label>
-            <input type="text" placeholder="Digite o nome completo do aluno" id="nome">
+            <label for="nome" id="name-aluno">Nome do Aluno</label>
+            <input type="text" placeholder="Digite o nome completo do aluno" id="nome-aluno">
             </div>   
             <div class="areaInput" id="serie">
                 <label>Turma</label>
