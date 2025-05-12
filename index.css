@@ -30,7 +30,7 @@ h1 {
   text-transform: uppercase;
 }
 
-form {
+form:not(#form-d){
   width: 90%;
   max-width: 600px;
   display: flex;
@@ -58,7 +58,7 @@ select {
   outline: none;
 }
 
-form section {
+form section{
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -81,7 +81,7 @@ form section {
   gap: 20px;
 }
 
-#buttons button {
+#buttons button, #button-d {
   height: 35px;
   width: 120px;
   border-radius: 5px;
@@ -90,7 +90,7 @@ form section {
   transition: background 1s;
 }
 
-#buttons button:hover {
+#buttons button:hover, #button-d:hover {
   background-color: #b5b3b3;
   cursor: pointer;
 }
@@ -151,7 +151,7 @@ form section {
   background-color: #fff;
 }
 
-#close-modal {
+.close-modal {
   width: 20px;
   position: absolute;
   top: 1.5%;
@@ -180,6 +180,45 @@ form section {
   padding: 15px 5px;
   gap: 5px;
   cursor: pointer;
+}
+.conteinerData img{
+    width: 25px;
+}
+
+#modal-edit{
+    
+    width: 90%;
+    max-width: 600px;
+    display: none;
+    flex-direction: column;
+    font-size: 1.7rem;
+    background: rgba(255, 255, 255  );
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#form-d{
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.7rem;
+  gap: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+}
+#input-d{
+ width: 35% !important;
 }
 
 /* Desktop layout */
