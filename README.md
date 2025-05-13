@@ -1,4 +1,4 @@
-## Registro de Retirada e Devolução de Livros.
+## Registro de Retirada e Devolução de Livros
 
 Projeto criado com o intuito de registrar os livros retirados e devolvidos na escola que eu trabalho. 
 layout simples feito somente para substituir o caderno que eram anotados os registros, onde constava somente o nome do aluno a turma e data de retirada e entrega dos livros.
