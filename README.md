@@ -8,8 +8,14 @@ Funcionalidades:
  - Exibir todos os registros feitos com o nome do aluno, nome do livro, turma, data de retirada e entrega de livros.
  - Buscar pelo nome do aluno um registro de retirada ja efetuado.
 
-Layout
-<img src="https://drive.google.com/uc?export=view&id=1e676s8iqwQwhvJ3HZp3qA_hvIqBCleD8/view?usp=sharing" alt="">
+Layout </br>
+
+<img src="assets/registro.png" alt="Descrição" width="300" />  <img src="assets/devolucao.png" alt="Descrição" width="300" /></br>
+
+<img src="assets/pesquisa.png" alt="Descrição" width="300" /> <img src="assets/dataD.png" alt="Descrição" width="300" /> </br>
+
+Tem muitas melhorias a serem feitas no layout mas ele é funcional e responsivo e ja consegue substituir o antigo caderno que era ultilizado.
+
 
 Observações:
   - Ja existem elementos na area de devolução pois estão inseridos no html.
@@ -19,4 +25,8 @@ Observações:
       - Criar uma ficha para cada aluno que tenha as informações do aluno e os livros que ele já pegou e devolveu.
       - Deixar mais intuitivo na lista de devolução dos livros.
     
-    
+Linguagens Usadas </br>
+
+[![HTML](https://img.shields.io/badge/HTML-%23FFac45.svg?&style=for-the-badge&logo=html5&logoColor=white&color=orange)](https://github.com/)
+[![CSS](https://img.shields.io/badge/CSS-%23FFac45.svg?&style=for-the-badge&logo=css3&logoColor=white&color=blue)](https://github.com/)
+[![JavaScript](https://img.shields.io/badge/JAVASCRIPT-%23FFac45.svg?&style=for-the-badge&logo=javascript&logoColor=white&color=yellow)](https://github.com/) 
