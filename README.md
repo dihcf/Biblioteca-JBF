@@ -1,14 +1,18 @@
-## Registro de Retirada e Devolução de Livros
+
+## Registro de Retirada e Devolução de Livros 📖
 
 Projeto criado com o intuito de registrar os livros retirados e devolvidos na escola que eu trabalho. 
 layout simples feito somente para substituir o caderno que eram anotados os registros, onde constava somente o nome do aluno a turma e data de retirada e entrega dos livros.
 
-## Funcionalidades:
- - Registrar o aluno, o livro, a turma e a data de retirada e entrega do(s) livro(s).
- - Exibir todos os registros feitos com o nome do aluno, nome do livro, turma, data de retirada e entrega de livros.
- - Buscar pelo nome do aluno um registro de retirada ja efetuado.
+## Funcionalidades 👨‍💻
 
-## Layout </br>
+<ul> 
+ <li> Registrar o aluno, o livro, a turma e a data de retirada e entrega do(s) livro(s).</li> 
+ <li>Exibir todos os registros feitos com o nome do aluno, nome do livro, turma, data de retirada e entrega de livros.</li> 
+ <li>Buscar pelo nome do aluno um registro de retirada ja efetuado.</li> 
+</ul>
+
+## Layout 🎨 </br>
 
 <img src="assets/registro.png" alt="Descrição" width="300" />  <img src="assets/devolucao.png" alt="Descrição" width="300" /></br>
 
@@ -16,7 +20,7 @@ layout simples feito somente para substituir o caderno que eram anotados os regi
 
 >*Tem muitas melhorias a serem feitas no layout mas ele é funcional e responsivo e ja consegue substituir o antigo caderno que era ultilizado.*
     
-## Tecnologias Usadas </br>
+## Tecnologias Usadas 💻 </br>
 
 [![HTML](https://img.shields.io/badge/HTML-%23FFac45.svg?&style=for-the-badge&logo=html5&logoColor=white&color=orange)](https://github.com/)
 [![CSS](https://img.shields.io/badge/CSS-%23FFac45.svg?&style=for-the-badge&logo=css3&logoColor=white&color=blue)](https://github.com/)
