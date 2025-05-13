@@ -12,7 +12,7 @@ Layout </br>
 
 <img src="assets/registro.png" alt="Descrição" width="300" />  <img src="assets/devolucao.png" alt="Descrição" width="300" /></br>
 
-<img src="assets/pesquisa.png" alt="Descrição" width="300" /> <img src="assets/dataD.png" alt="Descrição" width="300" /> </br>
+<img src="assets/pesquisa.png" alt="Descrição" width="300" />  <img src="assets/dataD.png" alt="Descrição" width="300" /> </br>
 
 Tem muitas melhorias a serem feitas no layout mas ele é funcional e responsivo e ja consegue substituir o antigo caderno que era ultilizado.
 
