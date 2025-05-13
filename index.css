@@ -14,23 +14,24 @@
 html, body {
   height: 100vh;
   background-color: aliceblue;
+  display: flex;
 }
 
 main {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-  gap: 25px;
+  gap: 15px;
   min-height: 100vh;
   width: 100vw;
-  padding-top: 50px;
 }
 
 h1 {
   text-transform: uppercase;
 }
 
-form:not(#form-d){
+form:not(#form-d):not(#Login){
   width: 90%;
   max-width: 600px;
   display: flex;
@@ -47,7 +48,7 @@ form:not(#form-d){
   padding: 20px;
 }
 
-input:not(#input_search),
+input:not(#input_search):not(#Login input),
 select {
   height: 40px;
   width: 100%;
@@ -81,7 +82,7 @@ form section{
   gap: 20px;
 }
 
-#buttons button, #button-d {
+#buttons button, #button-d, #buttonLogin button {
   height: 35px;
   width: 120px;
   border-radius: 5px;
@@ -90,7 +91,7 @@ form section{
   transition: background 1s;
 }
 
-#buttons button:hover, #button-d:hover {
+#buttons button:hover, #button-d:hover, #buttonLogin button:hover{
   background-color: #b5b3b3;
   cursor: pointer;
 }
@@ -115,7 +116,6 @@ form section{
   align-items: flex-start;
   padding: 10px;
   overflow-y: auto;
-  gap: 25px;
 }
 
 #search {
@@ -174,7 +174,7 @@ form section{
   box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-wrap: wrap;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   align-items: center;
   padding: 15px 5px;
@@ -219,8 +219,45 @@ form section{
 }
 #input-d{
  width: 35% !important;
+ cursor: pointer;
+}
+#Login{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100vh;
+  max-width: 600px;
+  z-index: 3;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#inputLogin{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+#inputLogin input{
+    height: 40px;
+    width: 100%;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f1f1f1;
+}
+#buttonLogin button{
+  cursor: pointer;
 }
 
+#threeC{
+  top:38%;
+  left: 90%;
+  z-index: 5;
+}
 /* Desktop layout */
 @media (min-width: 800px) {
   .conteinerData {
