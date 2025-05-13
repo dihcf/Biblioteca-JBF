@@ -94,7 +94,7 @@ entrarL.addEventListener("click",()=>{
     let campoPass = document.getElementById("Pass").value
 
     if(campoPass == "Admin" && campoUser == "Admin"){
-        window.location.assign("fichas.html")
+        window.location.assign("https://youtube.com/shorts/iKf2Gh0UsXs?si=yFRaxM9DoC3GcvCM")
     } else {
         alert("Usuario ou Senha Incorretos")
     }
